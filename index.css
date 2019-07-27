@@ -22,13 +22,11 @@ img {
   top: 0 !important;
   right: 0 !important;
   border-radius: 50%;
-  padding: 2px !important;
-  background-color: rgba(0,0,0,0.25) !important;
+  background-color: grey !important;
 }
 
 .pswp__button--close:hover {
   cursor: pointer !important;
-  background-color: rgba(0,0,0,0.4);
 }
 
 .pswp__item {
