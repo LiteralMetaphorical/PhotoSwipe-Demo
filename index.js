@@ -1,7 +1,4 @@
 window.onload = function() {
-  if (window.location.href.indexOf("pid") !== -1) {
-    window.location.href = "file:///C:/Users/HAL%209000/Desktop/html/index.html";
-  }
   let pswpElement = document.querySelectorAll('.pswp')[0];
   let imageArr = document.getElementsByClassName("ps-image");
   let slides = [];

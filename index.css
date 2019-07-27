@@ -25,6 +25,15 @@ img {
   background-color: grey !important;
 }
 
+@media only screen and (max-width: 1041px) {
+  .pswp__button--close {
+    margin: 2px !important;
+    position: absolute !important;
+    bottom: 0 !important;
+    left: calc(50% - 20px);
+  }
+}
+
 .pswp__button--close:hover {
   cursor: pointer !important;
 }
